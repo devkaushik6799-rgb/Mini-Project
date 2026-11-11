@@ -1,0 +1,34 @@
+
+# Node dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Java build files
+backend/target/
+
+# Local database files
+backend/data/
+*.mv.db
+*.trace.db
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel/

@@ -1,0 +1,1 @@
+export type Medicine = { id:number; name:string; category:string; description:string; price:number; stockQuantity:number; prescriptionRequired:boolean; imageUrl?:string }; export type ChatMessage = { role:'user'|'assistant'; content:string };

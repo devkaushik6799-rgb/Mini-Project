@@ -1,0 +1,4 @@
+-- Relationship overview:
+-- customer_orders (1) ---- (many) order_items
+-- medicines is referenced by medicine_id in order_items as a historical identifier.
+-- medicine_name and unit_price are snapshotted in order_items so past order details remain readable if catalogue values change.
